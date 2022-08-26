@@ -1,0 +1,57 @@
+.header {
+    max-width: 1150px;
+}
+
+.header__navbar {
+    height: 55px;
+}
+
+.navbar {
+    background-color: #002b4b;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .navbar__brand-logo{
+    display: inline-flex;
+    justify-content: flex-start;
+}
+.navbar .navbar__brand-logo a{
+    text-decoration: none;
+    color: unset;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.navbar .navbar__brand-logo a img {
+    height: 40px;
+}
+
+.navbar .navbar__list{
+    display: inline-flex;
+    justify-content: flex-end;
+    margin-right: 15px;
+}
+
+.navbar .navbar__list ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar .navbar__list li{
+    margin: 0;
+    padding: 0;
+}
+.navbar .navbar__list li+li{
+    margin-left: 15px;    
+}
+
+.navbar .navbar__list li a{
+    text-decoration: none;
+    color: #fff;
+}
