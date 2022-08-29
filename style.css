@@ -1,6 +1,7 @@
 body{
-    margin: 0;
-    padding: 0%;
+    line-height: 1.2;
+    margin: 0 1rem;
+    border: 1px dotted #000;
 }
 .header {
     max-width: 1150px;
