@@ -70,6 +70,27 @@ body{
     text-decoration: none;
     color: #fff;
 }
+/* out of curiosity, sets nice animation on mouse over for hyperlink */
+a:not([class]){
+    color: #333;
+    text-decoration: underline;
+    line-height: 1;
+    background-size: calc(200% + 1px);
+    background-position-x: 0%;
+    background-image: linear-gradient(to right, transparent 50%, rgba(75, 230, 253, 0.5) 50%);
+    background-clip: content-box;
+    transition: background-position-x 250ms ease-in-out;
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+a:not([class]):hover, a:not([class]):focus {
+    background-position-x: -100%;
+    transition: background-position-x 250ms ease-in-out;
+}
+/* animation code ends */
 
 .text-result-area .text-result-area__container{
     margin-top: 3rem;
